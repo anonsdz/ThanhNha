@@ -11,7 +11,7 @@ from pytz import timezone
 from html import escape
 import os
 
-TOKEN, ADMIN_ID, GROUP_ID, VIP_USERS_FILE, METHODS_FILE, user_processes = '7464694057:AAEXqkeqkEEopZkg4syDSANi8r5pzqQV2IY', 7371969470, -1002434530321, 'vip_users.json', 'methods.json', {}
+TOKEN, ADMIN_ID, GROUP_ID, VIP_USERS_FILE, METHODS_FILE, user_processes = '7464694057:AAEXqkeqkEEopZkg4syDSANi8r5pzqQV2IY', 5582437613, -1002365124072, 'vip_users.json', 'methods.json', {}
 
 def load_json(file): 
     return json.load(open(file, 'r')) if os.path.exists(file) else (save_json(file, {}) or {})
